@@ -38,7 +38,7 @@ body {
 	padding: 16px;
 	text-align: right;
 	background-color: var(--dark);
-	color: var(--secondary);
+	color: var(--light);
 	font-size: 24px;
 	font-weight: 300;
 	text-shadow: 0px 0px 2px rgb(0 0 0 / 50%);
@@ -60,6 +60,7 @@ button {
 }
 button:hover {
 	opacity: 0.7;
+	box-shadow: 0px 2px 64px rgba(0, 0, 0, 0.4);
 }
 
 .operators {
@@ -69,7 +70,7 @@ button:hover {
 	flex: 1 1 0%;
 	background-color: var(--primary);
 	font-weight: 700;
-	color: var(--light);
+	color: var(--secondary);
 }
 
 .digits {
